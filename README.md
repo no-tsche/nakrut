@@ -1,14 +1,17 @@
 # nakrut
 
-A Clojure library designed to ... well, that part is up to you.
+Small script for getting viewers on targeted site. 
 
 ## Usage
 
-FIXME
+Run 20 requests:
+`nakrut "proxy-list.txt" "http://url.that.needs/views" 20`
 
-## License
+Proxy-list file format:
+`192.168.1.100\t8080\n
+192.168.1.101\t8081\n
+...`
 
-Copyright © 2016 FIXME
+## Status
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Not working yet. Small progress when i got time for clojure learning.
