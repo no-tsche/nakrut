@@ -15,8 +15,8 @@
   [line]
   (str/split line #"\t"))
 
-(defn get-proxie gs
-  "Getting parsed list of proxies"
+(defn get-proxies
+  "Getting parsed list of proxies."
   [proxy-list-file]
   (map parse-proxy-line (str/split-lines proxy-list-file)))
 
